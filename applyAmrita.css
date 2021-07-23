@@ -603,10 +603,10 @@ span::before {
   /* border: solid black 1px; */
 }
 
-#amProgramOverviewContainer > div {
-  /* height: 500px;
- border: solid rgb(87, 68, 68) 1px; */
-}
+/* #amProgramOverviewContainer > div {
+  height: 500px;
+ border: solid rgb(87, 68, 68) 1px; 
+} */
 
 #amProgramOverviewDiv1 > div {
   display: flex;
