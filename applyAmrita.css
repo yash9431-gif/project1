@@ -528,6 +528,9 @@ span::before {
   justify-content: center;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(146, 146, 146, 0.2),
+    0 6px 10px 0 rgba(134, 134, 134, 0.19);
+  margin-bottom: 120px;
 }
 #amritaCourseInfo div {
   height: 100px;
@@ -565,4 +568,131 @@ span::before {
 }
 #amCourse6 {
   grid-area: f;
+}
+
+#amProgramOverviewHeading {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: rgb(111, 155, 140); */
+  margin-bottom: 30px;
+}
+#amProgramOverviewHeading h2 {
+  font-size: 37px;
+  font-family: "Promixa Nova", -apple-system, BlinkMacSystemFont, Roboto, Arial,
+    sans-serif;
+  font-weight: 550;
+}
+#amProgramOverviewHeading span {
+  font-family: "Promixa Nova", -apple-system, BlinkMacSystemFont, Roboto, Arial,
+    sans-serif;
+
+  font-size: 32px;
+  font-weight: 400;
+  color: #101010;
+}
+
+#amProgramOverviewContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-gap: 3px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  /* border: solid black 1px; */
+}
+
+#amProgramOverviewContainer > div {
+  /* height: 500px;
+ border: solid rgb(87, 68, 68) 1px; */
+}
+
+#amProgramOverviewDiv1 > div {
+  display: flex;
+  margin-top: 20px;
+  font-size: 17px;
+  gap: 10px;
+}
+#amProgramOverviewDiv2 > div {
+  display: flex;
+  margin-top: 20px;
+  font-size: 17px;
+  gap: 10px;
+}
+
+#highlightsSpan1 {
+  height: 50px;
+  width: 60px;
+  background-image: url("https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites/prod/in/degree-bca-amrita-vishwa-vidyapeetham/1626446972051/sprite-in/degree-bca-amrita-vishwa-vidyapeetham.png");
+  background-position: bottom 290px right 485px;
+}
+#highlightsSpan2 {
+  height: 50px;
+  width: 45px;
+  background-image: url("https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites/prod/in/degree-bca-amrita-vishwa-vidyapeetham/1626446972051/sprite-in/degree-bca-amrita-vishwa-vidyapeetham.png");
+  background-position: bottom 290px right 485px;
+}
+#highlightsSpan3 {
+  height: 50px;
+  width: 60px;
+  background-image: url("https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites/prod/in/degree-bca-amrita-vishwa-vidyapeetham/1626446972051/sprite-in/degree-bca-amrita-vishwa-vidyapeetham.png");
+  background-position: bottom 290px right 485px;
+}
+#highlightsSpan4 {
+  height: 50px;
+  width: 60px;
+  background-image: url("https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites/prod/in/degree-bca-amrita-vishwa-vidyapeetham/1626446972051/sprite-in/degree-bca-amrita-vishwa-vidyapeetham.png");
+  background-position: bottom 290px right 480px;
+}
+#highlightsSpan5 {
+  height: 50px;
+  width: 63px;
+  background-image: url("https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites/prod/in/degree-bca-amrita-vishwa-vidyapeetham/1626446972051/sprite-in/degree-bca-amrita-vishwa-vidyapeetham.png");
+  background-position: bottom 290px right 478px;
+}
+
+#highlightsSpan11 {
+  height: 50px;
+  width: 50px;
+  background-image: url("https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites/prod/in/degree-bca-amrita-vishwa-vidyapeetham/1626446972051/sprite-in/degree-bca-amrita-vishwa-vidyapeetham.png");
+  background-position: bottom 290px right 485px;
+}
+#highlightsSpan22 {
+  height: 50px;
+  width: 80px;
+  background-image: url("https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites/prod/in/degree-bca-amrita-vishwa-vidyapeetham/1626446972051/sprite-in/degree-bca-amrita-vishwa-vidyapeetham.png");
+  background-position: bottom 290px right 480px;
+}
+#highlightsSpan33 {
+  height: 50px;
+  width: 80px;
+  background-image: url("https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites/prod/in/degree-bca-amrita-vishwa-vidyapeetham/1626446972051/sprite-in/degree-bca-amrita-vishwa-vidyapeetham.png");
+  background-position: bottom 290px right 485px;
+}
+#highlightsSpan44 {
+  height: 50px;
+  width: 80px;
+  background-image: url("https://ik.imagekit.io/upgrad1/marketing-platform-assets/sprites/prod/in/degree-bca-amrita-vishwa-vidyapeetham/1626446972051/sprite-in/degree-bca-amrita-vishwa-vidyapeetham.png");
+  background-position: bottom 290px right 485px;
+}
+
+#amProgramOverviewDiv3 {
+  box-shadow: 0 6px 10px 0 rgba(146, 146, 146, 0.2),
+    0 6px 10px 0 rgba(134, 134, 134, 0.19), 0 4px 8px 0 rgba(146, 146, 146, 0.2),
+    0 4px 8px 0 rgba(146, 146, 146, 0.2);
+  height: 300px;
+}
+#amProgramOverviewDiv3 p {
+  margin-top: 50px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 16px;
+  color: #303030;
+}
+#amProgramOverviewDiv3 img {
+  margin-top: 12px;
+  margin-left: 12px;
+  width: 35%;
 }
