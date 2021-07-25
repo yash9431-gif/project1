@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amrita university</title>
+    <link rel="stylesheet" href="amrita.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="row_first">
+        <div id="logo">
+            <img id="logo_png" src="https://aoap.amrita.edu/ahead/assets/img/logo.png">
+        </div>
+        <div id="heading">
+            <h2>Amrita Online Admission Portal</h2>
+        </div>
+    </div>
+     
+    <!-- second row MBA/BBA/BCOM OFFERED COURSE -->
+
+    <div id="row_second_1">
+
+        <div id="row_second_1_1">
+            <img src="https://aoap.amrita.edu/ahead/assets/img/email_banner.jpg">
+        </div>
+        <h4>Online Programs Offered :</h4>
+        
+        <!-- program_list -->
+
+        <div id="program_list_div">
+            <h2>Bachelor of Computer Application (BCA)</h2>
+            <h2>Bachelor of Business Administration (BBA)</h2>
+            <h2>Master of Business Administration (MBA)</h2>
+            <h2>Master of Computer Applications (MCA)</h2>
+            <h2>Master of Computer Applications in Artificial Intelligence (MCA - AI)</h2>
+            <h2>Master of Computer Applications in Cyber Security (MCA - CYBERSECURITY)</h2>
+            <h2>Bachelor of Commerce (B.COM) in Taxation and Finance</h2>
+            <h2>Master of Commerce (M.COM) in Finance and Systems</h2>
+        </div>
+
+        <!-- Online Certificate Program : -->
+        <div id="mahabharat_div">
+            <h3>Online Certificate Program :</h3>
+            <h2>Mahabharata Upanayanam (6 Weeks Online)</h2>
+        </div>
+
+        <!-- IMPORTANT NOTE -->
+        <div id="imp_note">
+            <h3>IMPORTANT NOTE (Applicable to all programs) :</h3>
+            <ul>
+                <li>Students in their final year can apply with the last completed semester results.</li>
+                <li>Candidates with work experience will have an added advantage for admissions.</li>
+            </ul>
+        </div>
+        <ul id="link">Visit
+            <a href="https://www.amrita.edu/ahead">https://www.amrita.edu/ahead</a>
+            for more details.
+        </ul>
+
+        <!-- contact details -->
+        <div id="contact_details">
+            <p class="icon_name">HELPLINE :</p>
+            <div class="icons">
+                <img class="icon" src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/phone-512.png">
+            </div>
+             <p style="margin-left: 5px;">+91 8590007473  </p>
+
+            
+            <div style="margin-left: 15px;" class="icons">
+                <img class="icon" src="https://seeklogo.com/images/W/whatsapp-icon-logo-6E793ACECD-seeklogo.com.png">
+            </div>
+            <p style="margin-left: 5px;">8590240617 </p>
+
+            
+            <div style="margin-left: 15px;"  class="icons">
+                <img class="icon" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-email-512.png">
+            </div>
+            <p style="margin-left: 5px;">ahead@amrita.edu</p>
+        </div>
+    </div>
+    <!-- login and registeration div -->
+    <div id="row_second_2">
+        
+        <div id="login_register_button_div">
+            <button class="btn" id="login"><h2 style="color: white;font-size: 180%;">LOGIN</h2>
+                <svg style="color: #1FC1DD;" xmlns="http://www.w3.org/2000/svg"  width="80%" height="110%" aria-placeholder="login" fill="currentColor" class="bi bi-chat-square" viewBox="0 0 16 16">
+                    <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                </svg>
+                
+                </button>
+            <!-- <button class="btn" id="register">REGISTER</button> -->
+        </div>
+
+        <div id="login_div">
+            <div id="login_info_taking_div">
+                <form >
+                    <h5 style="text-align: left;font-size: large;font-family: 'Roboto', sans-serif;color: rgba(0, 0, 0, 0.747); margin-bottom: -12px;">Login if already registered</h5>
+                    <div id="ist" class="form-grop">
+                        <div class="icon-envelope">
+                            <img id="icon-envelope-email" src="https://image.flaticon.com/icons/png/512/561/561127.png">
+                        </div>
+                        <input class="input-data" id="email_info" type="text" placeholder="Email">
+                    </div>
+
+                    <div id="ist" class="form-grop">
+                        <div class="icon-envelope">
+                            <img id="icon-envelope-email" src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_password-512.png">
+                        </div>
+                        <input class="input-data" id="pass_info" type="text" placeholder="password">
+                    </div>
+                </form>
+                <button id="signInbtn" onclick="signin()">Login</button>
+                <p>Easily Login Using</p>
+                <div id="social_media">
+                    <div class="media">
+                        <img src="http://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png">
+                        <p class="social_media_name">FACEBOOK</p>
+                    </div>
+                    <div class="media">
+                        <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png">
+                        <p class="social_media_name">GOOGLE</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="amrita.js"></script>

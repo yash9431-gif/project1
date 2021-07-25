@@ -1,0 +1,36 @@
+body {
+  overflow-x: hidden;
+}
+
+#img {
+  /* height: 800px; */
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-left: -20%;
+  margin-top: -100px;
+}
+#main_div {
+  height: 600px;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 1px 1px 25px #888888;
+}
+#check_gif {
+  margin: auto;
+  margin-left: 30%;
+}
+#cong_gif {
+  margin: auto;
+  margin-left: 25%;
+  margin-top: -25px;
+}
+#main_div h2 {
+  font-family: "Promixa Nova", -apple-system, BlinkMacSystemFont, Roboto, Arial,
+    sans-serif;
+  margin: auto;
+  margin-left: 29%;
+  color: rgba(0, 0, 0, 0.5);
+}

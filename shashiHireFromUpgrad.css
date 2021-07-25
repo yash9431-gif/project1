@@ -1,0 +1,274 @@
+/* body {
+  overflow-x: hidden;
+} */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.shead {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  margin: 20px;
+}
+.lefthead {
+  width: 47%;
+}
+.righthead {
+  width: 47%;
+}
+#headlogo {
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 150px;
+  margin-top: 3px;
+}
+#headtext {
+  margin-left: 250px;
+  margin-top: 15px;
+}
+.justBelowHead {
+  display: flex;
+  flex-direction: column;
+
+  height: 330px;
+  width: 100%;
+  margin-right: 15px;
+
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO17RN7v4gRjMtnkuU2oYdNyVHibDVxcS5XQ&usqp=CAU);
+  color: blue;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: blue;
+}
+#justBelowHead1 {
+  margin-left: 250px;
+  margin-top: 100px;
+}
+#justBelowHead1P {
+  font-weight: 200;
+  font-size: 50px;
+}
+#justBelowHead1Button {
+  margin-left: 250px;
+  margin-top: 20px;
+  width: 10%;
+  height: 30px;
+  background-color: red;
+}
+#b {
+  justify-content: center;
+  color: white;
+  background-color: red;
+  margin-top: 40%;
+  margin-left: 15px;
+}
+.secondJustBelowHead {
+  display: flex;
+  flex-direction: row;
+
+  height: 230px;
+  width: 100%;
+}
+#secondJustBelowHeadImg {
+  height: 230px;
+  width: 33%;
+}
+#image {
+  width: 50%;
+  margin-left: 100px;
+}
+#secondJustBelowHeadpara1 {
+  margin-left: 20%;
+  margin-top: 10%;
+  font-style: italic;
+  font-weight: lite;
+}
+#secondJustBelowHeadpara2 {
+  margin-left: 20%;
+  margin-top: 5%;
+  font-weight: bolder;
+}
+#secondJustBelowHeadpara3 {
+  margin-left: 60%;
+  margin-top: -4%;
+  font-weight: lite;
+}
+.thirdJustBelowHead {
+  height: 430px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#thirdJustBelowHead1 {
+  width: 30%;
+  height: 100px;
+  margin-left: 10%;
+}
+#thirdJustBelowHeadh1 {
+  margin-top: 5%;
+  font-size: 40px;
+}
+.thirdJustBelowHead2 {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 98%;
+
+  justify-content: center;
+}
+.thirdJustBelowHead2box1 {
+  display: flex;
+  flex-direction: column;
+
+  width: 32%;
+  height: 100%;
+  justify-content: center;
+}
+.thirdJustBelowHead2box2 {
+  display: flex;
+  flex-direction: column;
+
+  width: 32%;
+  height: 100%;
+  justify-content: center;
+}
+.thirdJustBelowHead2box3 {
+  display: flex;
+  flex-direction: column;
+
+  width: 32%;
+  height: 100%;
+  justify-content: center;
+}
+#thirdJustBelowHead2box1img {
+  width: 20%;
+  margin-left: 40%;
+}
+#thirdJustBelowHead2box1para1 {
+  margin-left: 33%;
+}
+#thirdJustBelowHead2box2img {
+  width: 20%;
+  margin-left: 40%;
+}
+#thirdJustBelowHead2box2para1 {
+  margin-left: 33%;
+}
+#thirdJustBelowHead2box3img {
+  width: 20%;
+  margin-left: 40%;
+}
+#thirdJustBelowHead2box3para1 {
+  margin-left: 33%;
+}
+.fourthdivs {
+  width: 100%;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+}
+#fourthdivsHead {
+  width: 60%;
+  height: 100px;
+
+  margin-left: 15%;
+}
+#fourthdivsHeadpara1 {
+  font-size: 40px;
+}
+.fourthdivsinside1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 130px;
+
+  margin-left: 6%;
+}
+#fourthdivsinside1img1 {
+  width: 20%;
+  height: 65%;
+}
+#fourthdivsinside1img2 {
+  width: 20%;
+  height: 65%;
+}
+.fifthdivs {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background-color: rgb(37, 24, 212);
+}
+.fifthdivsbox1 {
+  height: 15%;
+  width: 30%;
+
+  margin-left: 34%;
+}
+.fifthheading {
+  color: white;
+  margin-left: 27%;
+}
+.fifthdivsbox2 {
+  height: 60%;
+  width: 90%;
+  margin-left: 5%;
+
+  display: flex;
+  flex-direction: row;
+}
+.fifthdivsbox2a {
+  width: 25%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.fifthdivsbox2aimg {
+  width: 100;
+  height: 30%;
+}
+.fifthdivimg1 {
+  width: 40%;
+  margin-left: 25%;
+}
+.fifthdivsbox2apara {
+  text-align: center;
+  color: white;
+}
+
+.fifthdivsbox3 {
+  width: 17%;
+  height: 8%;
+  border: solid red;
+  margin-left: 40%;
+  margin-top: 1%;
+  border-radius: 4%;
+  text-align: center;
+
+  background-color: red;
+  color: white;
+}
+
+.footerbox {
+  width: 100%;
+  height: 600px;
+
+  background-color: #555454;
+  display: flex;
+  flex-direction: row;
+}
+.footerboxinside {
+  width: 25%;
+}
+.footertext1 {
+  color: rgb(214, 211, 211);
+  margin-left: 30px;
+}
+.footertext2 {
+  color: rgb(214, 211, 211);
+  margin-left: 30px;
+}

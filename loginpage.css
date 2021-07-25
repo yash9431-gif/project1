@@ -1,0 +1,193 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_div{
+    height: 600px;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+.logo_div{
+    height: 600px;
+    width: 50%;
+    background-color: rgb(247, 252, 252);
+}
+#logo_img_div{
+    height: 280px;
+    width: 60%;
+    /* background-color: yellow; */
+    margin: auto;
+    margin-top: 150px;
+
+}
+#logo_img{
+    height: 280px;
+    width: 100%;
+}
+
+.phnumber_div{
+    height: 600px;
+    width: 50%;
+    /* background-color: rgb(16, 247, 247); */
+}
+/* .phnumber_div{
+    display: none;
+} */
+#phnumber_div_heading{
+    height: 120px;
+    width: 80%;
+    /* background-color: tomato; */
+    /* margin: auto; */
+    margin-top: 80px;
+}
+#phnumber_div_heading h1{
+    font-family: "Promixa Nova",-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;
+    font-size: 200%;
+    color: rgba(0, 0, 0, 0.699);
+}
+#enter_num_div{
+    height: 80px;
+    width: 80%;
+    /* background-color: rgb(54, 54, 172); */
+    display: flex;
+}
+#code_flag_div{
+    height: 80px;
+    width: 30%;
+    /* background-color: crimson; */
+    display: flex;
+}
+#flag_div{
+    height: 40px;
+    width: 30%;
+    /* background-color: burlywood;  */
+    margin-left: 2%;
+    margin-top: 8px;
+}
+#flag_div img{
+    height: 40px;
+    width: 100%;
+}
+#code_flag_div p{
+    color: rgba(0, 0, 0, 0.699);
+    font-family: "Promixa Nova",-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    margin-left: 8%;
+}
+#arrow_down{
+    margin-top: 33px;
+    margin-left: 5%;
+}
+#input_num{
+    border: none;
+    background-color: none;
+    font-size: 170%;
+    font-stretch: wider;
+    margin-left: 5%;
+    letter-spacing: 2px;
+}
+#input_num:focus {
+    outline: none;
+  }
+#continue_button_div{
+    height: 110px;
+    width: 80%;
+    /* background-color: aquamarine; */
+
+}
+
+#continue_button{
+    width: 70%; 
+    height: 70px;
+    margin-left: 12%;
+    border-radius: 8px;
+    border: transparent;
+    background-color: rgba(214, 214, 214, 0.466);
+    
+}
+
+#continue_button span{
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+#with_email{
+    height: 40px;
+    width: 80%;
+    /* background-color: chartreuse; */
+    margin-top: -30px;
+}
+#with_email span{
+    font-family: "Promixa Nova",-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;
+    color: rgba(0, 0, 0, 0.658);
+    font-weight: 700;
+    text-decoration: underline;
+    margin-left: 32%;
+    
+}
+#main_div{
+    height: 600px;
+    width: 50%;
+    /* background-color: yellow; */
+}
+#left_arrow_div{
+    height: 50px;
+    width: 100%;
+    /* background-color: thistle; */
+    margin-top: 50px;
+}
+#left_arrow_div svg{
+    height: 80%;
+    width: 80%;
+    margin-left: -35%;
+}
+#main_heading_div{
+    height: 120px;
+    width: 80%;
+    /* background-color: violet; */
+}
+#main_heading_div p{
+    font-family: "Promixa Nova",-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;
+    font-size: 200%;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.664);
+}
+#otp_place{
+    height: 120px;
+    width: 80%;
+    /* background-color: rgb(78, 25, 78); */
+}
+#otp_place input{
+    border: none;
+    background-color: none;
+    font-size: 170%;
+    font-stretch: wider;
+    margin-left: 14%;
+    letter-spacing: 2px;
+    padding: 0 10%
+}
+
+#otp_place input:focus {
+    outline: none;
+  }
+
+#continueotp_button{
+    width: 70%; 
+    height: 70px;
+    margin-left: 0%;
+    border-radius: 8px;
+    border: transparent;
+    background-color: rgba(214, 214, 214, 0.466);
+    margin-top: -20px;
+    
+}
+
+#continueotp_button span{
+    font-weight: 800;
+    letter-spacing: 2px;
+}

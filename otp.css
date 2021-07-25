@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_div{
+    height: 600px;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+.logo_div{
+    height: 600px;
+    width: 50%;
+    background-color: rgb(247, 252, 252);
+}
+#logo_img_div{
+    height: 280px;
+    width: 60%;
+    /* background-color: yellow; */
+    margin: auto;
+    margin-top: 150px;
+
+}
+#logo_img{
+    height: 280px;
+    width: 100%;
+}
+
+#main_div{
+    height: 600px;
+    width: 50%;
+    /* background-color: yellow; */
+}
+#left_arrow_div{
+    height: 50px;
+    width: 100%;
+    /* background-color: thistle; */
+    margin-top: 50px;
+}
+#left_arrow_div svg{
+    height: 80%;
+    width: 80%;
+    margin-left: -35%;
+}
+#main_heading_div{
+    height: 120px;
+    width: 80%;
+    /* background-color: violet; */
+}
+#main_heading_div p{
+    font-family: "Promixa Nova",-apple-system,BlinkMacSystemFont,Roboto,Arial,sans-serif;
+    font-size: 200%;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.664);
+}
+#otp_place{
+    height: 120px;
+    width: 80%;
+    /* background-color: rgb(78, 25, 78); */
+}
+#otp_place input{
+    border: none;
+    background-color: none;
+    font-size: 170%;
+    font-stretch: wider;
+    margin-left: 14%;
+    letter-spacing: 2px;
+    padding: 0 10%
+}
+
+#otp_place input:focus {
+    outline: none;
+  }
+
+#continueotp_button{
+    width: 70%; 
+    height: 70px;
+    margin-left: 0%;
+    border-radius: 8px;
+    border: transparent;
+    background-color: rgba(206, 9, 9, 0.747);
+    margin-top: -20px;
+    color: white;
+    
+}
+
+#continueotp_button span{
+    font-weight: 800;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,214 @@
+.sheaddiv1 {
+  width: 40%;
+  margin-left: 25%;
+  height: 100px;
+}
+.sheaddiv2 {
+  display: flex;
+  flex-direction: row;
+  height: 1420px;
+}
+span.clear {
+  clear: left;
+  display: block;
+}
+.sheaddiv2buttonbox {
+  width: 43%;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0px;
+  left: 1%;
+}
+.cardmainbox {
+  width: 67%;
+  height: 1410px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 10%;
+}
+.cardmainboxrow1 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.cardmainboxrow2 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.cardmainboxrow3 {
+  width: 100%;
+  height: 33%;
+
+  display: flex;
+  flex-direction: row;
+}
+.card1 {
+  height: 100%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.card1img {
+  width: 100%;
+  height: 130px;
+  border-radius: 5%;
+}
+.card1logo {
+  margin-left: 2%;
+  width: 30%;
+  height: 30px;
+}
+.card1college {
+  margin-left: 2%;
+}
+.courselogobox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+.courselogoboximg {
+  width: 10%;
+  height: 100%;
+
+  margin-left: 3px;
+}
+.coursrlogoimg {
+  width: 100%;
+  height: 100%;
+}
+.courselogoboximgDec {
+  margin-left: 10px;
+
+  width: 80%;
+}
+.courselogobox2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+.courselogoboximg2 {
+  width: 10%;
+  height: 100%;
+
+  margin-left: 3px;
+}
+.coursrlogoimg2 {
+  width: 100%;
+  height: 100%;
+}
+.courselogoboximgDec2 {
+  margin-left: 20px;
+}
+.last1 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.card2 {
+  margin-top: 5px;
+  height: 98%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.last2 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.card3 {
+  margin-top: 5px;
+  height: 100%;
+  width: 45%;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  border-radius: 6%;
+}
+
+.last3 {
+  width: 80%;
+  border: solid 1px gray;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5%;
+}
+
+.sidebutton1 {
+  height: 40px;
+  width: 80%;
+  border: 1px solid gray;
+  margin-left: 15%;
+  border-radius: 8%;
+  justify-content: center;
+  color: white;
+}
+.sidebutton1text {
+  margin-top: 2.3%;
+  margin-left: 5%;
+  font-weight: 400;
+  font-weight: bold;
+  color: black;
+}
+.sidebutton1:hover {
+  background-color: tomato;
+}
+
+.footerbox {
+  width: 100%;
+  height: 600px;
+
+  background-color: #555454;
+  display: flex;
+  flex-direction: row;
+}
+.footerboxinside {
+  width: 25%;
+}
+.footertext1 {
+  color: rgb(214, 211, 211);
+  margin-left: 30px;
+}
+.footertext2 {
+  color: rgb(214, 211, 211);
+  margin-left: 30px;
+}

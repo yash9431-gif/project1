@@ -1,0 +1,240 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: black; */
+    
+}
+#row_first{
+   height: 90px;
+   width: 100%;
+   background-color: #a4123f;
+   display: flex;
+}
+#logo{
+    height: 90px;
+    width: 20%;
+    /* background-color: burlywood; */
+    margin-left: 2em;
+}
+#logo img{
+    height: 70px;
+    width: 100%;
+    margin-top: 15px;
+}
+#heading{
+    height: 90px;
+    width: 35%;
+    /* background-color: cyan; */
+    margin-left: 43rem;
+}
+#heading h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    margin-top: 30px;
+    font-size: 200%;
+    color: white;
+    font-weight: 500;
+}
+#row_second_1{
+    height: 1200px;
+    width: 48%;
+    /* background-color: tomato; */
+    
+}
+#row_second_1_1{
+    height: 220px;
+    width: 100%;
+    /* background-color: rgb(229, 243, 30); */
+}
+
+#row_second_1_1 img{
+    height: 220px;
+    width: 100%;
+}
+#row_second_1 h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-left: 3%;
+}
+#program_list_div{
+    height: 450px;
+    width: 95%;
+    /* background-color: rgb(65, 156, 147); */
+    margin-left: 4%;
+    margin-top: -29px;
+}
+#program_list_div h2{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    text-decoration: underline;
+}
+#mahabharat_div{
+    height: 100px;
+    width: 95%;
+    /* background-color: sandybrown; */
+    margin-left: 4%;
+}
+#mahabharat_div h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+#mahabharat_div h2{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    text-decoration: underline;
+}
+#imp_note{
+    height: 160px;
+    width: 95%; 
+    /* background-color: sienna; */
+    margin-left: 4%;
+}
+#imp_note{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    color: red;
+}
+#link{
+    font-size: 1.4rem;   
+}
+#contact_details{
+    height: 70px;
+    width: 95%;
+    /* background-color: seagreen; */
+    display: flex;
+    margin-left: 5%;
+    margin-top: -35px;
+}
+.icons{
+    height: 20px;
+    width: 20px;
+    /* background-color: seashell; */
+    margin-top: 15px;
+}
+.icon{
+    height: 20px;
+    width: 100%;
+}
+.icon_name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-right: 5px;
+}
+#row_second_2{
+    height: 1200px;
+    width: 52%;
+    /* background-color: skyblue; */
+    float: right;
+    margin-top: -1200px;
+}
+#login_register_button_div{
+    height: 80px;
+    width: 70%;
+    /* background-color: slateblue; */
+    margin-top: 100px;
+    margin-left: 30%;
+    display: flex;
+}
+.btn{
+    height: 80px;
+    width: 20%;
+    background-color: #1FC1DD;
+    /* color: rgb(255, 255, 255); */
+    border: none; 
+    border-radius: 15px;
+}
+#login_div{
+    height: 500px;
+    width: 80%;
+    /* border: 1px solid rgba(5, 5, 5, 0.623); */
+    margin-left: 8%;
+}
+#login_info_taking_div{
+    height: 500px;
+    width: 80%;
+    /* background-color: #94bac2; */
+    margin-left: 15%; 
+}
+.form-grop{
+    height: 50px;
+    width:60%;
+    /* background-color: #d623b8; */
+    border: 1px solid rgba(0, 0, 0, 0.685);
+    margin-top: 20px;
+}
+#ist{
+    display: flex;
+}
+
+
+.icon-envelope{
+    height: 30px;
+    width: 10%;
+    /* background-color: bisque; */
+   margin-left: 2%;
+   display: flex;
+}
+#icon-envelope-email{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+.input-data{
+    width: 100%;
+    /* border: none; */
+    /* display: block; */
+}
+.input-data:focus {
+    outline: none;
+  }
+
+#signInbtn{
+    height: 50px;
+    width:60%;
+    background-color: rgba(7, 180, 7, 0.712);
+    color: white;
+    font-size: 130%;
+    margin-top: 15px;
+    border: none;
+}
+#login_info_taking_div P{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+#social_media{
+    height: 80px;
+    width:60%;
+    /* background-color: blueviolet;  */
+    display: flex;
+}
+.media{
+    height: 80px;
+    width:50%;
+    /* background-color: brown; */
+    display: flex;
+    border: 1px solid rgba(2, 2, 2, 0.486);
+    margin-left: 2%;
+    
+}
+.media img{
+    height: 50px;
+    width: 30%;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 5%;
+    
+}
+.media p{
+    margin-left: 5%;
+   
+}
+
+#login_register_button_div svg{
+    margin-top: -57px;
+}
+.social_media_name{
+    font-size: 200%;
+}

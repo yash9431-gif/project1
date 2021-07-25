@@ -104,7 +104,7 @@ body {
 }
 
 .course_program_type4 {
-  background-color: rgb(245, 229, 224);
+  background-color: rgb(255, 255, 255);
   height: 620px;
   width: 420px;
   border-radius: 5px;
@@ -115,7 +115,7 @@ body {
 }
 
 .course_program_type5 {
-  background-color: rgb(240, 206, 194);
+  background-color: rgb(255, 255, 255);
   height: 620px;
   width: 420px;
   border-radius: 5px;
@@ -126,7 +126,7 @@ body {
 }
 
 .course_program_type6 {
-  background-color: rgb(236, 211, 202);
+  background-color: rgb(255, 255, 255);
   height: 620px;
   width: 420px;
   border-radius: 5px;
@@ -137,7 +137,7 @@ body {
 }
 
 .course_program_type7 {
-  background-color: rgb(226, 192, 180);
+  background-color: rgb(253, 253, 253);
   height: 620px;
   width: 420px;
   border-radius: 5px;
@@ -148,7 +148,7 @@ body {
 }
 
 .course_program_type8 {
-  background-color: rgb(229, 199, 188);
+  background-color: rgb(255, 255, 255);
   height: 620px;
   width: 420px;
   border-radius: 5px;
@@ -159,7 +159,7 @@ body {
 }
 
 .course_program_type9 {
-  background-color: rgb(224, 192, 181);
+  background-color: rgb(255, 255, 255);
   height: 620px;
   width: 420px;
   border-radius: 5px;
@@ -170,7 +170,7 @@ body {
 }
 
 .course_program_type10 {
-  background-color: rgb(218, 175, 160);
+  background-color: rgb(255, 255, 255);
   height: 620px;
   width: 420px;
   border-radius: 5px;
@@ -247,9 +247,10 @@ body {
 .header_headings {
   height: 60px;
   width: 40%;
-  background: transparent;
+  /* background: transparent; */
   margin-left: 38%;
   display: flex;
+  /* background-color: aquamarine; */
 }
 
 .headings {
@@ -257,9 +258,10 @@ body {
     sans-serif;
   color: rgba(2, 2, 2, 0.63);
   font-weight: bolder;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   font-size: 19px;
   margin-top: 18px;
+  margin-left: 6%;
 }
 
 .headings:hover {
@@ -270,7 +272,10 @@ body {
   display: flex;
   float: right;
   margin-top: -60px;
-  margin-right: 200px;
+  /* margin-right: 200px; */
+  margin-right: 10%;
+  /* background-color: blue; */
+  margin-left: 2%;
 }
 .more_dropdown ul {
   list-style: none;
@@ -280,6 +285,7 @@ body {
 .more_dropdown ul li {
   /* background: royalblue; */
   width: 300px;
+  /* width: 50%; */
   /* border: 2px solid goldenrod; */
   height: 50px;
   line-height: 50px;
@@ -288,8 +294,15 @@ body {
   font-family: "Promixa Nova", -apple-system, BlinkMacSystemFont, Roboto, Arial,
     sans-serif;
   float: left;
+  margin-right: 35%;
 }
-
+#more {
+  height: 50px;
+  width: 5em;
+  /* background-color: blueviolet; */
+  margin-left: -150%;
+  margin-top: 1px;
+}
 .more_dropdown ul ul {
   display: none;
 }
@@ -318,9 +331,13 @@ body {
 
 #start_learning_div {
   height: 50px;
-  width: 200px;
-  background: linear-gradient(to right, #ac0101 0%, #f70202 100%);
-  /* float: right; */
+  width: 12%;
+  background: linear-gradient(
+    to right,
+    #000 0 0%,
+    rgb(153, 2, 2) 0 0%,
+    rgba(255, 4, 4, 0.884) 82.34%
+  );
   margin-left: 85%;
   margin-top: -60px;
   border-radius: 5px;
@@ -350,7 +367,13 @@ body {
   margin-left: 2.5%;
   margin-top: 30px;
   border-radius: 40px;
-  background: linear-gradient(to right, #070000 0%, #270101da 100%);
+  background: linear-gradient(
+    to right,
+    #000000 10%,
+    #000000 25%,
+    #000000 15%,
+    #70020249 100%
+  );
   display: flex;
 }
 
